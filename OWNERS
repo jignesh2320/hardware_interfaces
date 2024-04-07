@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 per-file *.hal,*.aidl,OWNERS = set noparent
 per-file *.hal,*.aidl,OWNERS = devinmoore@google.com,elsk@google.com,malchev@google.com,smoreland@google.com
 
@@ -12,3 +13,5 @@ maco@google.com
 
 # vts tests
 guangzhu@google.com
+include platform/hardware/interfaces:/OWNERS
+

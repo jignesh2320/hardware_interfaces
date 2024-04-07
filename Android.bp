@@ -1,6 +1,5 @@
 package {
-    default_applicable_licenses: ["hardware_interfaces_license"],
-}
+
 
 // Added automatically by a large-scale-change that took the approach of
 // 'apply every license found to every target'. While this makes sure we respect
@@ -88,4 +87,8 @@ cc_defaults {
     static_libs: [
         "VtsHalHidlTargetTestBase",
     ],
+
+    default_applicable_licenses: ["Android-Apache-2.0"],
+hidl_package_root {
+    name: "android.system",
 }
